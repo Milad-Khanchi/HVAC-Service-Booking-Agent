@@ -1,8 +1,12 @@
-# app.py
 import chainlit as cl
-from agent.agent import HVACAssistant
+import sys
+import os
 from dotenv import load_dotenv
 import os
+
+# Add the project root directory to sys.path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+from agent_model.agent_f import HVACAssistant
 
 # Load environment variables from .env file
 load_dotenv()
