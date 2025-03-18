@@ -1,0 +1,180 @@
+Conversation Scenario 1:
+Customer Name: Leslie Chapman
+Contact Information:
+    Phone: 001-388-597-4568x467
+    Email: ashleyhannah@example.com
+Property Type: Commercial - Office
+Service Needed: Furnace Maintenance
+Issue Description: Ducts need cleaning due to dust buildup
+Preferred Appointment:
+    Date: 2025-03-14
+    Time: 06:35:25
+--------------------------------------------------
+Conversation Scenario 2:
+Customer Name: Jacob Wilson
+Contact Information:
+    Phone: (645)849-6655x2743
+    Email: dana34@example.net
+Property Type: Residential - House
+Service Needed: Furnace Maintenance
+Issue Description: Furnace making unusual noises
+Preferred Appointment:
+    Date: 2025-03-09
+    Time: 11:52:32
+--------------------------------------------------
+Conversation Scenario 3:
+Customer Name: Eric Mcbride
+Contact Information:
+    Phone: (876)546-6672x2739
+    Email: christopherking@example.org
+Property Type: Residential - House
+Service Needed: Air Quality Assessment
+Issue Description: Routine maintenance check
+Preferred Appointment:
+    Date: 2025-03-16
+    Time: 00:17:31
+--------------------------------------------------
+Conversation Scenario 4:
+Customer Name: James Lawrence
+Contact Information:
+    Phone: 835-824-7288
+    Email: kimberlyperez@example.net
+Property Type: Commercial - Office
+Service Needed: Furnace Maintenance
+Issue Description: Installation of a new HVAC system
+Preferred Appointment:
+    Date: 2025-03-13
+    Time: 03:26:34
+--------------------------------------------------
+Conversation Scenario 5:
+Customer Name: Amber Ferrell
+Contact Information:
+    Phone: 972-713-0047x32145
+    Email: denise26@example.net
+Property Type: Residential - House
+Service Needed: Furnace Maintenance
+Issue Description: Thermostat malfunctioning
+Preferred Appointment:
+    Date: 2025-03-11
+    Time: 21:46:09
+--------------------------------------------------
+Conversation Scenario 6:
+Customer Name: Sarah Sharp
+Contact Information:
+    Phone: 281-366-6804x29929
+    Email: mary85@example.com
+Property Type: Residential - House
+Service Needed: Furnace Maintenance
+Issue Description: Interested in improving indoor air quality
+Preferred Appointment:
+    Date: 2025-03-13
+    Time: 09:45:23
+--------------------------------------------------
+Conversation Scenario 7:
+Customer Name: Beth Hamilton
+Contact Information:
+    Phone: +1-421-384-3605
+    Email: cameron47@example.org
+Property Type: Industrial - Warehouse
+Service Needed: Duct Cleaning
+Issue Description: Ducts need cleaning due to dust buildup
+Preferred Appointment:
+    Date: 2025-03-09
+    Time: 07:29:05
+--------------------------------------------------
+Conversation Scenario 8:
+Customer Name: Sara Vang
+Contact Information:
+    Phone: +1-955-356-9683x33472
+    Email: melissa01@example.net
+Property Type: Industrial - Warehouse
+Service Needed: Air Quality Assessment
+Issue Description: AC unit not cooling
+Preferred Appointment:
+    Date: 2025-03-16
+    Time: 02:32:49
+--------------------------------------------------
+Conversation Scenario 9:
+Customer Name: Adam Stewart
+Contact Information:
+    Phone: 639-811-7169x960
+    Email: matthewlutz@example.net
+Property Type: Residential - House
+Service Needed: HVAC Installation
+Issue Description: Furnace making unusual noises
+Preferred Appointment:
+    Date: 2025-03-03
+    Time: 00:43:24
+--------------------------------------------------
+Conversation Scenario 10:
+Customer Name: Jerry Tate
+Contact Information:
+    Phone: 001-309-551-0049x8859
+    Email: megan28@example.org
+Property Type: Commercial - Retail Store
+Service Needed: Furnace Maintenance
+Issue Description: Furnace making unusual noises
+Preferred Appointment:
+    Date: 2025-03-12
+    Time: 07:30:00
+--------------------------------------------------
+Conversation Scenario 11:
+Customer Name: Darlene Carlson
+Contact Information:
+    Phone: +1-844-771-2133x0791
+    Email: sandovalwilliam@example.org
+Property Type: Residential - House
+Service Needed: Furnace Maintenance
+Issue Description: Ducts need cleaning due to dust buildup
+Preferred Appointment:
+    Date: 2025-03-11
+    Time: 07:12:27
+--------------------------------------------------
+Conversation Scenario 12:
+Customer Name: Gregory Rollins
+Contact Information:
+    Phone: 482.777.6443x995
+    Email: rhonda58@example.net
+Property Type: Residential - Apartment
+Service Needed: Duct Cleaning
+Issue Description: AC unit not cooling
+Preferred Appointment:
+    Date: 2025-03-02
+    Time: 06:54:59
+--------------------------------------------------
+Conversation Scenario 13:
+Customer Name: Melissa Garrett
+Contact Information:
+    Phone: 974.434.4513x18507
+    Email: robert45@example.com
+Property Type: Commercial - Retail Store
+Service Needed: HVAC Installation
+Issue Description: Thermostat malfunctioning
+Preferred Appointment:
+    Date: 2025-03-06
+    Time: 08:57:44
+--------------------------------------------------
+Conversation Scenario 14:
+Customer Name: Derek Maynard
+Contact Information:
+    Phone: (716)765-4853
+    Email: hughescrystal@example.net
+Property Type: Industrial - Warehouse
+Service Needed: AC Repair
+Issue Description: Routine maintenance check
+Preferred Appointment:
+    Date: 2025-03-06
+    Time: 05:09:41
+--------------------------------------------------
+Conversation Scenario 15:
+Customer Name: Sierra Mcmahon
+Contact Information:
+    Phone: 001-565-773-7468x9316
+    Email: sethellis@example.com
+Property Type: Residential - Apartment
+Service Needed: Air Quality Assessment
+Issue Description: Thermostat malfunctioning
+Preferred Appointment:
+    Date: 2025-03-15
+    Time: 14:09:04
+--------------------------------------------------
