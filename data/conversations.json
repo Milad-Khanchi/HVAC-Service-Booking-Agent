@@ -1,0 +1,692 @@
+[
+    [
+        {
+            "role": "user",
+            "message": "Hello, my name is Alexander Whitehead. I need help with Furnace Maintenance for my Industrial - Warehouse."
+        },
+        {
+            "role": "assistant",
+            "message": "Sure! Could you describe the issue you're experiencing?"
+        },
+        {
+            "role": "user",
+            "message": "AC unit not cooling"
+        },
+        {
+            "role": "assistant",
+            "message": "Got it. I just need some additional details. Can I have your phone number and email address?"
+        },
+        {
+            "role": "user",
+            "message": "Phone: 001-230-322-8793x713, Email: gonzalesstephanie@example.net"
+        },
+        {
+            "role": "assistant",
+            "message": "Thank you! What would be your preferred date and time for the appointment?"
+        },
+        {
+            "role": "user",
+            "message": "Date: 2025-03-02, Time: 18:43:48"
+        },
+        {
+            "role": "assistant",
+            "message": "Let me summarize your request:\n- Service: Furnace Maintenance\n- Issue: AC unit not cooling\n- Property: Industrial - Warehouse\n- Contact: 001-230-322-8793x713, gonzalesstephanie@example.net\n- Appointment: 2025-03-02 at 18:43:48\n\nDoes this look correct?"
+        },
+        {
+            "role": "user",
+            "message": "Yes, that looks good."
+        },
+        {
+            "role": "assistant",
+            "message": "Great! Your appointment has been confirmed. Here is the JSON summary of your booking:"
+        },
+        {
+            "role": "assistant",
+            "message": "```json{\n                \"Customer's Full Name\": customer_name,\n                \"Contact Information\": {\n                    \"Phone Number\": phone,\n                    \"Email Address\": email\n                },\n                \"Property Details\": {\n                    \"Type of Property\": property_type,\n                    \"Property Address\": fake.address()\n                },\n                \"Service Required\": service_needed,\n                \"Issue Description\": issue_description,\n                \"Preferred Appointment\": {\n                    \"Date\": appointment_date,\n                    \"Time\": appointment_time\n                },\n                \"Additional Notes or Special Requests\": \"\"\n            } ```\n            "
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "message": "Hello, my name is Ryan Sloan. I need help with Thermostat Installation for my Residential - Apartment."
+        },
+        {
+            "role": "assistant",
+            "message": "Sure! Could you describe the issue you're experiencing?"
+        },
+        {
+            "role": "user",
+            "message": "AC unit not cooling"
+        },
+        {
+            "role": "assistant",
+            "message": "Got it. I just need some additional details. Can I have your phone number and email address?"
+        },
+        {
+            "role": "user",
+            "message": "Phone: 821.893.5498, Email: tracy32@example.com"
+        },
+        {
+            "role": "assistant",
+            "message": "Thank you! What would be your preferred date and time for the appointment?"
+        },
+        {
+            "role": "user",
+            "message": "Date: 2025-03-07, Time: 08:45:07"
+        },
+        {
+            "role": "assistant",
+            "message": "Let me summarize your request:\n- Service: Thermostat Installation\n- Issue: AC unit not cooling\n- Property: Residential - Apartment\n- Contact: 821.893.5498, tracy32@example.com\n- Appointment: 2025-03-07 at 08:45:07\n\nDoes this look correct?"
+        },
+        {
+            "role": "user",
+            "message": "Yes, that looks good."
+        },
+        {
+            "role": "assistant",
+            "message": "Great! Your appointment has been confirmed. Here is the JSON summary of your booking:"
+        },
+        {
+            "role": "assistant",
+            "message": "```json{\n                \"Customer's Full Name\": customer_name,\n                \"Contact Information\": {\n                    \"Phone Number\": phone,\n                    \"Email Address\": email\n                },\n                \"Property Details\": {\n                    \"Type of Property\": property_type,\n                    \"Property Address\": fake.address()\n                },\n                \"Service Required\": service_needed,\n                \"Issue Description\": issue_description,\n                \"Preferred Appointment\": {\n                    \"Date\": appointment_date,\n                    \"Time\": appointment_time\n                },\n                \"Additional Notes or Special Requests\": \"\"\n            } ```\n            "
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "message": "Hello, my name is Spencer Cross. I need help with Air Quality Assessment for my Residential - House."
+        },
+        {
+            "role": "assistant",
+            "message": "Sure! Could you describe the issue you're experiencing?"
+        },
+        {
+            "role": "user",
+            "message": "Thermostat malfunctioning"
+        },
+        {
+            "role": "assistant",
+            "message": "Got it. I just need some additional details. Can I have your phone number and email address?"
+        },
+        {
+            "role": "user",
+            "message": "Phone: +1-320-318-1051x36876, Email: hardysean@example.net"
+        },
+        {
+            "role": "assistant",
+            "message": "Thank you! What would be your preferred date and time for the appointment?"
+        },
+        {
+            "role": "user",
+            "message": "Date: 2025-03-14, Time: 03:05:06"
+        },
+        {
+            "role": "assistant",
+            "message": "Let me summarize your request:\n- Service: Air Quality Assessment\n- Issue: Thermostat malfunctioning\n- Property: Residential - House\n- Contact: +1-320-318-1051x36876, hardysean@example.net\n- Appointment: 2025-03-14 at 03:05:06\n\nDoes this look correct?"
+        },
+        {
+            "role": "user",
+            "message": "Yes, that looks good."
+        },
+        {
+            "role": "assistant",
+            "message": "Great! Your appointment has been confirmed. Here is the JSON summary of your booking:"
+        },
+        {
+            "role": "assistant",
+            "message": "```json{\n                \"Customer's Full Name\": customer_name,\n                \"Contact Information\": {\n                    \"Phone Number\": phone,\n                    \"Email Address\": email\n                },\n                \"Property Details\": {\n                    \"Type of Property\": property_type,\n                    \"Property Address\": fake.address()\n                },\n                \"Service Required\": service_needed,\n                \"Issue Description\": issue_description,\n                \"Preferred Appointment\": {\n                    \"Date\": appointment_date,\n                    \"Time\": appointment_time\n                },\n                \"Additional Notes or Special Requests\": \"\"\n            } ```\n            "
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "message": "Hello, my name is Donald Hudson. I need help with Duct Cleaning for my Residential - Apartment."
+        },
+        {
+            "role": "assistant",
+            "message": "Sure! Could you describe the issue you're experiencing?"
+        },
+        {
+            "role": "user",
+            "message": "Installation of a new HVAC system"
+        },
+        {
+            "role": "assistant",
+            "message": "Got it. I just need some additional details. Can I have your phone number and email address?"
+        },
+        {
+            "role": "user",
+            "message": "Phone: 4165327479, Email: joseph07@example.net"
+        },
+        {
+            "role": "assistant",
+            "message": "Thank you! What would be your preferred date and time for the appointment?"
+        },
+        {
+            "role": "user",
+            "message": "Date: 2025-03-09, Time: 18:30:24"
+        },
+        {
+            "role": "assistant",
+            "message": "Let me summarize your request:\n- Service: Duct Cleaning\n- Issue: Installation of a new HVAC system\n- Property: Residential - Apartment\n- Contact: 4165327479, joseph07@example.net\n- Appointment: 2025-03-09 at 18:30:24\n\nDoes this look correct?"
+        },
+        {
+            "role": "user",
+            "message": "Yes, that looks good."
+        },
+        {
+            "role": "assistant",
+            "message": "Great! Your appointment has been confirmed. Here is the JSON summary of your booking:"
+        },
+        {
+            "role": "assistant",
+            "message": "```json{\n                \"Customer's Full Name\": customer_name,\n                \"Contact Information\": {\n                    \"Phone Number\": phone,\n                    \"Email Address\": email\n                },\n                \"Property Details\": {\n                    \"Type of Property\": property_type,\n                    \"Property Address\": fake.address()\n                },\n                \"Service Required\": service_needed,\n                \"Issue Description\": issue_description,\n                \"Preferred Appointment\": {\n                    \"Date\": appointment_date,\n                    \"Time\": appointment_time\n                },\n                \"Additional Notes or Special Requests\": \"\"\n            } ```\n            "
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "message": "Hello, my name is Terry Cohen. I need help with Thermostat Installation for my Residential - Apartment."
+        },
+        {
+            "role": "assistant",
+            "message": "Sure! Could you describe the issue you're experiencing?"
+        },
+        {
+            "role": "user",
+            "message": "Ducts need cleaning due to dust buildup"
+        },
+        {
+            "role": "assistant",
+            "message": "Got it. I just need some additional details. Can I have your phone number and email address?"
+        },
+        {
+            "role": "user",
+            "message": "Phone: 656.486.9798, Email: lucerojeffrey@example.com"
+        },
+        {
+            "role": "assistant",
+            "message": "Thank you! What would be your preferred date and time for the appointment?"
+        },
+        {
+            "role": "user",
+            "message": "Date: 2025-03-12, Time: 15:25:21"
+        },
+        {
+            "role": "assistant",
+            "message": "Let me summarize your request:\n- Service: Thermostat Installation\n- Issue: Ducts need cleaning due to dust buildup\n- Property: Residential - Apartment\n- Contact: 656.486.9798, lucerojeffrey@example.com\n- Appointment: 2025-03-12 at 15:25:21\n\nDoes this look correct?"
+        },
+        {
+            "role": "user",
+            "message": "Yes, that looks good."
+        },
+        {
+            "role": "assistant",
+            "message": "Great! Your appointment has been confirmed. Here is the JSON summary of your booking:"
+        },
+        {
+            "role": "assistant",
+            "message": "```json{\n                \"Customer's Full Name\": customer_name,\n                \"Contact Information\": {\n                    \"Phone Number\": phone,\n                    \"Email Address\": email\n                },\n                \"Property Details\": {\n                    \"Type of Property\": property_type,\n                    \"Property Address\": fake.address()\n                },\n                \"Service Required\": service_needed,\n                \"Issue Description\": issue_description,\n                \"Preferred Appointment\": {\n                    \"Date\": appointment_date,\n                    \"Time\": appointment_time\n                },\n                \"Additional Notes or Special Requests\": \"\"\n            } ```\n            "
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "message": "Hello, my name is Brandon Robinson. I need help with AC Repair for my Residential - Apartment."
+        },
+        {
+            "role": "assistant",
+            "message": "Sure! Could you describe the issue you're experiencing?"
+        },
+        {
+            "role": "user",
+            "message": "Ducts need cleaning due to dust buildup"
+        },
+        {
+            "role": "assistant",
+            "message": "Got it. I just need some additional details. Can I have your phone number and email address?"
+        },
+        {
+            "role": "user",
+            "message": "Phone: 723.238.7488x42491, Email: davidgordon@example.com"
+        },
+        {
+            "role": "assistant",
+            "message": "Thank you! What would be your preferred date and time for the appointment?"
+        },
+        {
+            "role": "user",
+            "message": "Date: 2025-03-13, Time: 02:38:51"
+        },
+        {
+            "role": "assistant",
+            "message": "Let me summarize your request:\n- Service: AC Repair\n- Issue: Ducts need cleaning due to dust buildup\n- Property: Residential - Apartment\n- Contact: 723.238.7488x42491, davidgordon@example.com\n- Appointment: 2025-03-13 at 02:38:51\n\nDoes this look correct?"
+        },
+        {
+            "role": "user",
+            "message": "Yes, that looks good."
+        },
+        {
+            "role": "assistant",
+            "message": "Great! Your appointment has been confirmed. Here is the JSON summary of your booking:"
+        },
+        {
+            "role": "assistant",
+            "message": "```json{\n                \"Customer's Full Name\": customer_name,\n                \"Contact Information\": {\n                    \"Phone Number\": phone,\n                    \"Email Address\": email\n                },\n                \"Property Details\": {\n                    \"Type of Property\": property_type,\n                    \"Property Address\": fake.address()\n                },\n                \"Service Required\": service_needed,\n                \"Issue Description\": issue_description,\n                \"Preferred Appointment\": {\n                    \"Date\": appointment_date,\n                    \"Time\": appointment_time\n                },\n                \"Additional Notes or Special Requests\": \"\"\n            } ```\n            "
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "message": "Hello, my name is Jacqueline Johnson. I need help with Air Quality Assessment for my Residential - House."
+        },
+        {
+            "role": "assistant",
+            "message": "Sure! Could you describe the issue you're experiencing?"
+        },
+        {
+            "role": "user",
+            "message": "Thermostat malfunctioning"
+        },
+        {
+            "role": "assistant",
+            "message": "Got it. I just need some additional details. Can I have your phone number and email address?"
+        },
+        {
+            "role": "user",
+            "message": "Phone: 001-699-484-8082, Email: bethstewart@example.net"
+        },
+        {
+            "role": "assistant",
+            "message": "Thank you! What would be your preferred date and time for the appointment?"
+        },
+        {
+            "role": "user",
+            "message": "Date: 2025-03-11, Time: 15:01:42"
+        },
+        {
+            "role": "assistant",
+            "message": "Let me summarize your request:\n- Service: Air Quality Assessment\n- Issue: Thermostat malfunctioning\n- Property: Residential - House\n- Contact: 001-699-484-8082, bethstewart@example.net\n- Appointment: 2025-03-11 at 15:01:42\n\nDoes this look correct?"
+        },
+        {
+            "role": "user",
+            "message": "Yes, that looks good."
+        },
+        {
+            "role": "assistant",
+            "message": "Great! Your appointment has been confirmed. Here is the JSON summary of your booking:"
+        },
+        {
+            "role": "assistant",
+            "message": "```json{\n                \"Customer's Full Name\": customer_name,\n                \"Contact Information\": {\n                    \"Phone Number\": phone,\n                    \"Email Address\": email\n                },\n                \"Property Details\": {\n                    \"Type of Property\": property_type,\n                    \"Property Address\": fake.address()\n                },\n                \"Service Required\": service_needed,\n                \"Issue Description\": issue_description,\n                \"Preferred Appointment\": {\n                    \"Date\": appointment_date,\n                    \"Time\": appointment_time\n                },\n                \"Additional Notes or Special Requests\": \"\"\n            } ```\n            "
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "message": "Hello, my name is Katherine Ross. I need help with Furnace Maintenance for my Commercial - Retail Store."
+        },
+        {
+            "role": "assistant",
+            "message": "Sure! Could you describe the issue you're experiencing?"
+        },
+        {
+            "role": "user",
+            "message": "AC unit not cooling"
+        },
+        {
+            "role": "assistant",
+            "message": "Got it. I just need some additional details. Can I have your phone number and email address?"
+        },
+        {
+            "role": "user",
+            "message": "Phone: 001-931-525-1110x22893, Email: martinjoseph@example.net"
+        },
+        {
+            "role": "assistant",
+            "message": "Thank you! What would be your preferred date and time for the appointment?"
+        },
+        {
+            "role": "user",
+            "message": "Date: 2025-03-13, Time: 17:06:58"
+        },
+        {
+            "role": "assistant",
+            "message": "Let me summarize your request:\n- Service: Furnace Maintenance\n- Issue: AC unit not cooling\n- Property: Commercial - Retail Store\n- Contact: 001-931-525-1110x22893, martinjoseph@example.net\n- Appointment: 2025-03-13 at 17:06:58\n\nDoes this look correct?"
+        },
+        {
+            "role": "user",
+            "message": "Yes, that looks good."
+        },
+        {
+            "role": "assistant",
+            "message": "Great! Your appointment has been confirmed. Here is the JSON summary of your booking:"
+        },
+        {
+            "role": "assistant",
+            "message": "```json{\n                \"Customer's Full Name\": customer_name,\n                \"Contact Information\": {\n                    \"Phone Number\": phone,\n                    \"Email Address\": email\n                },\n                \"Property Details\": {\n                    \"Type of Property\": property_type,\n                    \"Property Address\": fake.address()\n                },\n                \"Service Required\": service_needed,\n                \"Issue Description\": issue_description,\n                \"Preferred Appointment\": {\n                    \"Date\": appointment_date,\n                    \"Time\": appointment_time\n                },\n                \"Additional Notes or Special Requests\": \"\"\n            } ```\n            "
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "message": "Hello, my name is Alexis Ruiz. I need help with Duct Cleaning for my Industrial - Warehouse."
+        },
+        {
+            "role": "assistant",
+            "message": "Sure! Could you describe the issue you're experiencing?"
+        },
+        {
+            "role": "user",
+            "message": "Installation of a new HVAC system"
+        },
+        {
+            "role": "assistant",
+            "message": "Got it. I just need some additional details. Can I have your phone number and email address?"
+        },
+        {
+            "role": "user",
+            "message": "Phone: 8994618333, Email: courtney25@example.net"
+        },
+        {
+            "role": "assistant",
+            "message": "Thank you! What would be your preferred date and time for the appointment?"
+        },
+        {
+            "role": "user",
+            "message": "Date: 2025-03-07, Time: 15:21:18"
+        },
+        {
+            "role": "assistant",
+            "message": "Let me summarize your request:\n- Service: Duct Cleaning\n- Issue: Installation of a new HVAC system\n- Property: Industrial - Warehouse\n- Contact: 8994618333, courtney25@example.net\n- Appointment: 2025-03-07 at 15:21:18\n\nDoes this look correct?"
+        },
+        {
+            "role": "user",
+            "message": "Yes, that looks good."
+        },
+        {
+            "role": "assistant",
+            "message": "Great! Your appointment has been confirmed. Here is the JSON summary of your booking:"
+        },
+        {
+            "role": "assistant",
+            "message": "```json{\n                \"Customer's Full Name\": customer_name,\n                \"Contact Information\": {\n                    \"Phone Number\": phone,\n                    \"Email Address\": email\n                },\n                \"Property Details\": {\n                    \"Type of Property\": property_type,\n                    \"Property Address\": fake.address()\n                },\n                \"Service Required\": service_needed,\n                \"Issue Description\": issue_description,\n                \"Preferred Appointment\": {\n                    \"Date\": appointment_date,\n                    \"Time\": appointment_time\n                },\n                \"Additional Notes or Special Requests\": \"\"\n            } ```\n            "
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "message": "Hello, my name is Lance Booth. I need help with Furnace Maintenance for my Industrial - Warehouse."
+        },
+        {
+            "role": "assistant",
+            "message": "Sure! Could you describe the issue you're experiencing?"
+        },
+        {
+            "role": "user",
+            "message": "Routine maintenance check"
+        },
+        {
+            "role": "assistant",
+            "message": "Got it. I just need some additional details. Can I have your phone number and email address?"
+        },
+        {
+            "role": "user",
+            "message": "Phone: +1-630-470-8501x88283, Email: pwilliams@example.com"
+        },
+        {
+            "role": "assistant",
+            "message": "Thank you! What would be your preferred date and time for the appointment?"
+        },
+        {
+            "role": "user",
+            "message": "Date: 2025-03-03, Time: 11:02:49"
+        },
+        {
+            "role": "assistant",
+            "message": "Let me summarize your request:\n- Service: Furnace Maintenance\n- Issue: Routine maintenance check\n- Property: Industrial - Warehouse\n- Contact: +1-630-470-8501x88283, pwilliams@example.com\n- Appointment: 2025-03-03 at 11:02:49\n\nDoes this look correct?"
+        },
+        {
+            "role": "user",
+            "message": "Yes, that looks good."
+        },
+        {
+            "role": "assistant",
+            "message": "Great! Your appointment has been confirmed. Here is the JSON summary of your booking:"
+        },
+        {
+            "role": "assistant",
+            "message": "```json{\n                \"Customer's Full Name\": customer_name,\n                \"Contact Information\": {\n                    \"Phone Number\": phone,\n                    \"Email Address\": email\n                },\n                \"Property Details\": {\n                    \"Type of Property\": property_type,\n                    \"Property Address\": fake.address()\n                },\n                \"Service Required\": service_needed,\n                \"Issue Description\": issue_description,\n                \"Preferred Appointment\": {\n                    \"Date\": appointment_date,\n                    \"Time\": appointment_time\n                },\n                \"Additional Notes or Special Requests\": \"\"\n            } ```\n            "
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "message": "Hello, my name is Mary Hanna. I need help with Air Quality Assessment for my Residential - Apartment."
+        },
+        {
+            "role": "assistant",
+            "message": "Sure! Could you describe the issue you're experiencing?"
+        },
+        {
+            "role": "user",
+            "message": "Installation of a new HVAC system"
+        },
+        {
+            "role": "assistant",
+            "message": "Got it. I just need some additional details. Can I have your phone number and email address?"
+        },
+        {
+            "role": "user",
+            "message": "Phone: 245-407-0236x776, Email: ipena@example.org"
+        },
+        {
+            "role": "assistant",
+            "message": "Thank you! What would be your preferred date and time for the appointment?"
+        },
+        {
+            "role": "user",
+            "message": "Date: 2025-03-02, Time: 08:37:22"
+        },
+        {
+            "role": "assistant",
+            "message": "Let me summarize your request:\n- Service: Air Quality Assessment\n- Issue: Installation of a new HVAC system\n- Property: Residential - Apartment\n- Contact: 245-407-0236x776, ipena@example.org\n- Appointment: 2025-03-02 at 08:37:22\n\nDoes this look correct?"
+        },
+        {
+            "role": "user",
+            "message": "Yes, that looks good."
+        },
+        {
+            "role": "assistant",
+            "message": "Great! Your appointment has been confirmed. Here is the JSON summary of your booking:"
+        },
+        {
+            "role": "assistant",
+            "message": "```json{\n                \"Customer's Full Name\": customer_name,\n                \"Contact Information\": {\n                    \"Phone Number\": phone,\n                    \"Email Address\": email\n                },\n                \"Property Details\": {\n                    \"Type of Property\": property_type,\n                    \"Property Address\": fake.address()\n                },\n                \"Service Required\": service_needed,\n                \"Issue Description\": issue_description,\n                \"Preferred Appointment\": {\n                    \"Date\": appointment_date,\n                    \"Time\": appointment_time\n                },\n                \"Additional Notes or Special Requests\": \"\"\n            } ```\n            "
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "message": "Hello, my name is Michael Carrillo. I need help with Thermostat Installation for my Residential - Apartment."
+        },
+        {
+            "role": "assistant",
+            "message": "Sure! Could you describe the issue you're experiencing?"
+        },
+        {
+            "role": "user",
+            "message": "Thermostat malfunctioning"
+        },
+        {
+            "role": "assistant",
+            "message": "Got it. I just need some additional details. Can I have your phone number and email address?"
+        },
+        {
+            "role": "user",
+            "message": "Phone: +1-567-818-3312x6901, Email: abbottamber@example.com"
+        },
+        {
+            "role": "assistant",
+            "message": "Thank you! What would be your preferred date and time for the appointment?"
+        },
+        {
+            "role": "user",
+            "message": "Date: 2025-03-08, Time: 01:14:48"
+        },
+        {
+            "role": "assistant",
+            "message": "Let me summarize your request:\n- Service: Thermostat Installation\n- Issue: Thermostat malfunctioning\n- Property: Residential - Apartment\n- Contact: +1-567-818-3312x6901, abbottamber@example.com\n- Appointment: 2025-03-08 at 01:14:48\n\nDoes this look correct?"
+        },
+        {
+            "role": "user",
+            "message": "Yes, that looks good."
+        },
+        {
+            "role": "assistant",
+            "message": "Great! Your appointment has been confirmed. Here is the JSON summary of your booking:"
+        },
+        {
+            "role": "assistant",
+            "message": "```json{\n                \"Customer's Full Name\": customer_name,\n                \"Contact Information\": {\n                    \"Phone Number\": phone,\n                    \"Email Address\": email\n                },\n                \"Property Details\": {\n                    \"Type of Property\": property_type,\n                    \"Property Address\": fake.address()\n                },\n                \"Service Required\": service_needed,\n                \"Issue Description\": issue_description,\n                \"Preferred Appointment\": {\n                    \"Date\": appointment_date,\n                    \"Time\": appointment_time\n                },\n                \"Additional Notes or Special Requests\": \"\"\n            } ```\n            "
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "message": "Hello, my name is Justin Shannon. I need help with Duct Cleaning for my Industrial - Warehouse."
+        },
+        {
+            "role": "assistant",
+            "message": "Sure! Could you describe the issue you're experiencing?"
+        },
+        {
+            "role": "user",
+            "message": "Furnace making unusual noises"
+        },
+        {
+            "role": "assistant",
+            "message": "Got it. I just need some additional details. Can I have your phone number and email address?"
+        },
+        {
+            "role": "user",
+            "message": "Phone: 771-743-8714, Email: fmayer@example.org"
+        },
+        {
+            "role": "assistant",
+            "message": "Thank you! What would be your preferred date and time for the appointment?"
+        },
+        {
+            "role": "user",
+            "message": "Date: 2025-03-04, Time: 15:12:44"
+        },
+        {
+            "role": "assistant",
+            "message": "Let me summarize your request:\n- Service: Duct Cleaning\n- Issue: Furnace making unusual noises\n- Property: Industrial - Warehouse\n- Contact: 771-743-8714, fmayer@example.org\n- Appointment: 2025-03-04 at 15:12:44\n\nDoes this look correct?"
+        },
+        {
+            "role": "user",
+            "message": "Yes, that looks good."
+        },
+        {
+            "role": "assistant",
+            "message": "Great! Your appointment has been confirmed. Here is the JSON summary of your booking:"
+        },
+        {
+            "role": "assistant",
+            "message": "```json{\n                \"Customer's Full Name\": customer_name,\n                \"Contact Information\": {\n                    \"Phone Number\": phone,\n                    \"Email Address\": email\n                },\n                \"Property Details\": {\n                    \"Type of Property\": property_type,\n                    \"Property Address\": fake.address()\n                },\n                \"Service Required\": service_needed,\n                \"Issue Description\": issue_description,\n                \"Preferred Appointment\": {\n                    \"Date\": appointment_date,\n                    \"Time\": appointment_time\n                },\n                \"Additional Notes or Special Requests\": \"\"\n            } ```\n            "
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "message": "Hello, my name is Sharon Mclaughlin. I need help with AC Repair for my Commercial - Retail Store."
+        },
+        {
+            "role": "assistant",
+            "message": "Sure! Could you describe the issue you're experiencing?"
+        },
+        {
+            "role": "user",
+            "message": "Installation of a new HVAC system"
+        },
+        {
+            "role": "assistant",
+            "message": "Got it. I just need some additional details. Can I have your phone number and email address?"
+        },
+        {
+            "role": "user",
+            "message": "Phone: (823)330-5993x769, Email: sandra82@example.com"
+        },
+        {
+            "role": "assistant",
+            "message": "Thank you! What would be your preferred date and time for the appointment?"
+        },
+        {
+            "role": "user",
+            "message": "Date: 2025-03-04, Time: 23:55:00"
+        },
+        {
+            "role": "assistant",
+            "message": "Let me summarize your request:\n- Service: AC Repair\n- Issue: Installation of a new HVAC system\n- Property: Commercial - Retail Store\n- Contact: (823)330-5993x769, sandra82@example.com\n- Appointment: 2025-03-04 at 23:55:00\n\nDoes this look correct?"
+        },
+        {
+            "role": "user",
+            "message": "Yes, that looks good."
+        },
+        {
+            "role": "assistant",
+            "message": "Great! Your appointment has been confirmed. Here is the JSON summary of your booking:"
+        },
+        {
+            "role": "assistant",
+            "message": "```json{\n                \"Customer's Full Name\": customer_name,\n                \"Contact Information\": {\n                    \"Phone Number\": phone,\n                    \"Email Address\": email\n                },\n                \"Property Details\": {\n                    \"Type of Property\": property_type,\n                    \"Property Address\": fake.address()\n                },\n                \"Service Required\": service_needed,\n                \"Issue Description\": issue_description,\n                \"Preferred Appointment\": {\n                    \"Date\": appointment_date,\n                    \"Time\": appointment_time\n                },\n                \"Additional Notes or Special Requests\": \"\"\n            } ```\n            "
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "message": "Hello, my name is Maria Myers. I need help with AC Repair for my Commercial - Office."
+        },
+        {
+            "role": "assistant",
+            "message": "Sure! Could you describe the issue you're experiencing?"
+        },
+        {
+            "role": "user",
+            "message": "Furnace making unusual noises"
+        },
+        {
+            "role": "assistant",
+            "message": "Got it. I just need some additional details. Can I have your phone number and email address?"
+        },
+        {
+            "role": "user",
+            "message": "Phone: (379)373-3542, Email: michaelgonzalez@example.net"
+        },
+        {
+            "role": "assistant",
+            "message": "Thank you! What would be your preferred date and time for the appointment?"
+        },
+        {
+            "role": "user",
+            "message": "Date: 2025-03-15, Time: 19:13:55"
+        },
+        {
+            "role": "assistant",
+            "message": "Let me summarize your request:\n- Service: AC Repair\n- Issue: Furnace making unusual noises\n- Property: Commercial - Office\n- Contact: (379)373-3542, michaelgonzalez@example.net\n- Appointment: 2025-03-15 at 19:13:55\n\nDoes this look correct?"
+        },
+        {
+            "role": "user",
+            "message": "Yes, that looks good."
+        },
+        {
+            "role": "assistant",
+            "message": "Great! Your appointment has been confirmed. Here is the JSON summary of your booking:"
+        },
+        {
+            "role": "assistant",
+            "message": "```json{\n                \"Customer's Full Name\": customer_name,\n                \"Contact Information\": {\n                    \"Phone Number\": phone,\n                    \"Email Address\": email\n                },\n                \"Property Details\": {\n                    \"Type of Property\": property_type,\n                    \"Property Address\": fake.address()\n                },\n                \"Service Required\": service_needed,\n                \"Issue Description\": issue_description,\n                \"Preferred Appointment\": {\n                    \"Date\": appointment_date,\n                    \"Time\": appointment_time\n                },\n                \"Additional Notes or Special Requests\": \"\"\n            } ```\n            "
+        }
+    ]
+]

@@ -2,21 +2,13 @@ import chainlit as cl
 import sys
 import os
 from dotenv import load_dotenv
-import os
 
 # Add the project root directory to sys.path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-from agent_model.agent_f import HVACAssistant
+from agent_model.ReAct_agent import HVACAssistant
 
-# Load environment variables from .env file
 load_dotenv()
-
-# Initialize the HVACAssistant with the OpenAI API key
-api_key = os.getenv("OPENAI_API_KEY")
-if not api_key:
-    raise ValueError("Please set the OPENAI_API_KEY environment variable in your .env file.")
-
-assistant = HVACAssistant(api_key=api_key)
+assistant = HVACAssistant()
 
 @cl.on_chat_start
 async def on_chat_start():
@@ -42,4 +34,4 @@ async def on_message(message: cl.Message):
     cl.user_session.set('chat_history', chat_history)
 
     # Send the assistant's response to the user
-    await message.reply(assistant_response)
+    await cl.Message(content=assistant_response).send()
