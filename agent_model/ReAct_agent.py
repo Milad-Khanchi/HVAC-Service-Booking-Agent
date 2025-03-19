@@ -82,7 +82,7 @@ class HVACAssistant:
             ALSO CALL CALENDER TOOL TO SCHEDULE APPOINTMENT.
             """
 
-        self.tools = [JsonTool(), AvailableSlotsTool()]
+        self.tools = [CalendarTool(), JsonTool(), AvailableSlotsTool()]
         self.agent = initialize_agent(
             self.tools,
             self.model,
