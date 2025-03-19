@@ -1,570 +1,477 @@
 Conversation Scenario 1:
-User: Hello, my name is Alexander Whitehead. I need help with Furnace Maintenance for my Industrial - Warehouse.
-Assistant: Sure! Could you describe the issue you're experiencing?
-User: AC unit not cooling
-Assistant: Got it. I just need some additional details. Can I have your phone number and email address?
-User: Phone: 001-230-322-8793x713, Email: gonzalesstephanie@example.net
-Assistant: Thank you! What would be your preferred date and time for the appointment?
-User: Date: 2025-03-02, Time: 18:43:48
-Assistant: Let me summarize your request:
-- Service: Furnace Maintenance
-- Issue: AC unit not cooling
-- Property: Industrial - Warehouse
-- Contact: 001-230-322-8793x713, gonzalesstephanie@example.net
-- Appointment: 2025-03-02 at 18:43:48
-
-Does this look correct?
-User: Yes, that looks good.
-Assistant: Great! Your appointment has been confirmed. Here is the JSON summary of your booking:
-Assistant: ```json{
-                "Customer's Full Name": customer_name,
-                "Contact Information": {
-                    "Phone Number": phone,
-                    "Email Address": email
-                },
-                "Property Details": {
-                    "Type of Property": property_type,
-                    "Property Address": fake.address()
-                },
-                "Service Required": service_needed,
-                "Issue Description": issue_description,
-                "Preferred Appointment": {
-                    "Date": appointment_date,
-                    "Time": appointment_time
-                },
-                "Additional Notes or Special Requests": ""
-            } ```
-            
---------------------------------------------------
-Conversation Scenario 2:
-User: Hello, my name is Ryan Sloan. I need help with Thermostat Installation for my Residential - Apartment.
-Assistant: Sure! Could you describe the issue you're experiencing?
-User: AC unit not cooling
-Assistant: Got it. I just need some additional details. Can I have your phone number and email address?
-User: Phone: 821.893.5498, Email: tracy32@example.com
-Assistant: Thank you! What would be your preferred date and time for the appointment?
-User: Date: 2025-03-07, Time: 08:45:07
-Assistant: Let me summarize your request:
-- Service: Thermostat Installation
-- Issue: AC unit not cooling
-- Property: Residential - Apartment
-- Contact: 821.893.5498, tracy32@example.com
-- Appointment: 2025-03-07 at 08:45:07
-
-Does this look correct?
-User: Yes, that looks good.
-Assistant: Great! Your appointment has been confirmed. Here is the JSON summary of your booking:
-Assistant: ```json{
-                "Customer's Full Name": customer_name,
-                "Contact Information": {
-                    "Phone Number": phone,
-                    "Email Address": email
-                },
-                "Property Details": {
-                    "Type of Property": property_type,
-                    "Property Address": fake.address()
-                },
-                "Service Required": service_needed,
-                "Issue Description": issue_description,
-                "Preferred Appointment": {
-                    "Date": appointment_date,
-                    "Time": appointment_time
-                },
-                "Additional Notes or Special Requests": ""
-            } ```
-            
---------------------------------------------------
-Conversation Scenario 3:
-User: Hello, my name is Spencer Cross. I need help with Air Quality Assessment for my Residential - House.
-Assistant: Sure! Could you describe the issue you're experiencing?
-User: Thermostat malfunctioning
-Assistant: Got it. I just need some additional details. Can I have your phone number and email address?
-User: Phone: +1-320-318-1051x36876, Email: hardysean@example.net
-Assistant: Thank you! What would be your preferred date and time for the appointment?
-User: Date: 2025-03-14, Time: 03:05:06
-Assistant: Let me summarize your request:
-- Service: Air Quality Assessment
-- Issue: Thermostat malfunctioning
-- Property: Residential - House
-- Contact: +1-320-318-1051x36876, hardysean@example.net
-- Appointment: 2025-03-14 at 03:05:06
-
-Does this look correct?
-User: Yes, that looks good.
-Assistant: Great! Your appointment has been confirmed. Here is the JSON summary of your booking:
-Assistant: ```json{
-                "Customer's Full Name": customer_name,
-                "Contact Information": {
-                    "Phone Number": phone,
-                    "Email Address": email
-                },
-                "Property Details": {
-                    "Type of Property": property_type,
-                    "Property Address": fake.address()
-                },
-                "Service Required": service_needed,
-                "Issue Description": issue_description,
-                "Preferred Appointment": {
-                    "Date": appointment_date,
-                    "Time": appointment_time
-                },
-                "Additional Notes or Special Requests": ""
-            } ```
-            
---------------------------------------------------
-Conversation Scenario 4:
-User: Hello, my name is Donald Hudson. I need help with Duct Cleaning for my Residential - Apartment.
-Assistant: Sure! Could you describe the issue you're experiencing?
-User: Installation of a new HVAC system
-Assistant: Got it. I just need some additional details. Can I have your phone number and email address?
-User: Phone: 4165327479, Email: joseph07@example.net
-Assistant: Thank you! What would be your preferred date and time for the appointment?
-User: Date: 2025-03-09, Time: 18:30:24
-Assistant: Let me summarize your request:
-- Service: Duct Cleaning
-- Issue: Installation of a new HVAC system
-- Property: Residential - Apartment
-- Contact: 4165327479, joseph07@example.net
-- Appointment: 2025-03-09 at 18:30:24
-
-Does this look correct?
-User: Yes, that looks good.
-Assistant: Great! Your appointment has been confirmed. Here is the JSON summary of your booking:
-Assistant: ```json{
-                "Customer's Full Name": customer_name,
-                "Contact Information": {
-                    "Phone Number": phone,
-                    "Email Address": email
-                },
-                "Property Details": {
-                    "Type of Property": property_type,
-                    "Property Address": fake.address()
-                },
-                "Service Required": service_needed,
-                "Issue Description": issue_description,
-                "Preferred Appointment": {
-                    "Date": appointment_date,
-                    "Time": appointment_time
-                },
-                "Additional Notes or Special Requests": ""
-            } ```
-            
---------------------------------------------------
-Conversation Scenario 5:
-User: Hello, my name is Terry Cohen. I need help with Thermostat Installation for my Residential - Apartment.
-Assistant: Sure! Could you describe the issue you're experiencing?
-User: Ducts need cleaning due to dust buildup
-Assistant: Got it. I just need some additional details. Can I have your phone number and email address?
-User: Phone: 656.486.9798, Email: lucerojeffrey@example.com
-Assistant: Thank you! What would be your preferred date and time for the appointment?
-User: Date: 2025-03-12, Time: 15:25:21
-Assistant: Let me summarize your request:
-- Service: Thermostat Installation
-- Issue: Ducts need cleaning due to dust buildup
-- Property: Residential - Apartment
-- Contact: 656.486.9798, lucerojeffrey@example.com
-- Appointment: 2025-03-12 at 15:25:21
-
-Does this look correct?
-User: Yes, that looks good.
-Assistant: Great! Your appointment has been confirmed. Here is the JSON summary of your booking:
-Assistant: ```json{
-                "Customer's Full Name": customer_name,
-                "Contact Information": {
-                    "Phone Number": phone,
-                    "Email Address": email
-                },
-                "Property Details": {
-                    "Type of Property": property_type,
-                    "Property Address": fake.address()
-                },
-                "Service Required": service_needed,
-                "Issue Description": issue_description,
-                "Preferred Appointment": {
-                    "Date": appointment_date,
-                    "Time": appointment_time
-                },
-                "Additional Notes or Special Requests": ""
-            } ```
-            
---------------------------------------------------
-Conversation Scenario 6:
-User: Hello, my name is Brandon Robinson. I need help with AC Repair for my Residential - Apartment.
-Assistant: Sure! Could you describe the issue you're experiencing?
-User: Ducts need cleaning due to dust buildup
-Assistant: Got it. I just need some additional details. Can I have your phone number and email address?
-User: Phone: 723.238.7488x42491, Email: davidgordon@example.com
-Assistant: Thank you! What would be your preferred date and time for the appointment?
-User: Date: 2025-03-13, Time: 02:38:51
-Assistant: Let me summarize your request:
-- Service: AC Repair
-- Issue: Ducts need cleaning due to dust buildup
-- Property: Residential - Apartment
-- Contact: 723.238.7488x42491, davidgordon@example.com
-- Appointment: 2025-03-13 at 02:38:51
-
-Does this look correct?
-User: Yes, that looks good.
-Assistant: Great! Your appointment has been confirmed. Here is the JSON summary of your booking:
-Assistant: ```json{
-                "Customer's Full Name": customer_name,
-                "Contact Information": {
-                    "Phone Number": phone,
-                    "Email Address": email
-                },
-                "Property Details": {
-                    "Type of Property": property_type,
-                    "Property Address": fake.address()
-                },
-                "Service Required": service_needed,
-                "Issue Description": issue_description,
-                "Preferred Appointment": {
-                    "Date": appointment_date,
-                    "Time": appointment_time
-                },
-                "Additional Notes or Special Requests": ""
-            } ```
-            
---------------------------------------------------
-Conversation Scenario 7:
-User: Hello, my name is Jacqueline Johnson. I need help with Air Quality Assessment for my Residential - House.
-Assistant: Sure! Could you describe the issue you're experiencing?
-User: Thermostat malfunctioning
-Assistant: Got it. I just need some additional details. Can I have your phone number and email address?
-User: Phone: 001-699-484-8082, Email: bethstewart@example.net
-Assistant: Thank you! What would be your preferred date and time for the appointment?
-User: Date: 2025-03-11, Time: 15:01:42
-Assistant: Let me summarize your request:
-- Service: Air Quality Assessment
-- Issue: Thermostat malfunctioning
-- Property: Residential - House
-- Contact: 001-699-484-8082, bethstewart@example.net
-- Appointment: 2025-03-11 at 15:01:42
-
-Does this look correct?
-User: Yes, that looks good.
-Assistant: Great! Your appointment has been confirmed. Here is the JSON summary of your booking:
-Assistant: ```json{
-                "Customer's Full Name": customer_name,
-                "Contact Information": {
-                    "Phone Number": phone,
-                    "Email Address": email
-                },
-                "Property Details": {
-                    "Type of Property": property_type,
-                    "Property Address": fake.address()
-                },
-                "Service Required": service_needed,
-                "Issue Description": issue_description,
-                "Preferred Appointment": {
-                    "Date": appointment_date,
-                    "Time": appointment_time
-                },
-                "Additional Notes or Special Requests": ""
-            } ```
-            
---------------------------------------------------
-Conversation Scenario 8:
-User: Hello, my name is Katherine Ross. I need help with Furnace Maintenance for my Commercial - Retail Store.
-Assistant: Sure! Could you describe the issue you're experiencing?
-User: AC unit not cooling
-Assistant: Got it. I just need some additional details. Can I have your phone number and email address?
-User: Phone: 001-931-525-1110x22893, Email: martinjoseph@example.net
-Assistant: Thank you! What would be your preferred date and time for the appointment?
-User: Date: 2025-03-13, Time: 17:06:58
-Assistant: Let me summarize your request:
-- Service: Furnace Maintenance
-- Issue: AC unit not cooling
-- Property: Commercial - Retail Store
-- Contact: 001-931-525-1110x22893, martinjoseph@example.net
-- Appointment: 2025-03-13 at 17:06:58
-
-Does this look correct?
-User: Yes, that looks good.
-Assistant: Great! Your appointment has been confirmed. Here is the JSON summary of your booking:
-Assistant: ```json{
-                "Customer's Full Name": customer_name,
-                "Contact Information": {
-                    "Phone Number": phone,
-                    "Email Address": email
-                },
-                "Property Details": {
-                    "Type of Property": property_type,
-                    "Property Address": fake.address()
-                },
-                "Service Required": service_needed,
-                "Issue Description": issue_description,
-                "Preferred Appointment": {
-                    "Date": appointment_date,
-                    "Time": appointment_time
-                },
-                "Additional Notes or Special Requests": ""
-            } ```
-            
---------------------------------------------------
-Conversation Scenario 9:
-User: Hello, my name is Alexis Ruiz. I need help with Duct Cleaning for my Industrial - Warehouse.
-Assistant: Sure! Could you describe the issue you're experiencing?
-User: Installation of a new HVAC system
-Assistant: Got it. I just need some additional details. Can I have your phone number and email address?
-User: Phone: 8994618333, Email: courtney25@example.net
-Assistant: Thank you! What would be your preferred date and time for the appointment?
-User: Date: 2025-03-07, Time: 15:21:18
-Assistant: Let me summarize your request:
-- Service: Duct Cleaning
-- Issue: Installation of a new HVAC system
-- Property: Industrial - Warehouse
-- Contact: 8994618333, courtney25@example.net
-- Appointment: 2025-03-07 at 15:21:18
-
-Does this look correct?
-User: Yes, that looks good.
-Assistant: Great! Your appointment has been confirmed. Here is the JSON summary of your booking:
-Assistant: ```json{
-                "Customer's Full Name": customer_name,
-                "Contact Information": {
-                    "Phone Number": phone,
-                    "Email Address": email
-                },
-                "Property Details": {
-                    "Type of Property": property_type,
-                    "Property Address": fake.address()
-                },
-                "Service Required": service_needed,
-                "Issue Description": issue_description,
-                "Preferred Appointment": {
-                    "Date": appointment_date,
-                    "Time": appointment_time
-                },
-                "Additional Notes or Special Requests": ""
-            } ```
-            
---------------------------------------------------
-Conversation Scenario 10:
-User: Hello, my name is Lance Booth. I need help with Furnace Maintenance for my Industrial - Warehouse.
+User: Hi, I am Samuel Jones and need help with Furnace Maintenance for my Residential - Apartment.
 Assistant: Sure! Could you describe the issue you're experiencing?
 User: Routine maintenance check
-Assistant: Got it. I just need some additional details. Can I have your phone number and email address?
-User: Phone: +1-630-470-8501x88283, Email: pwilliams@example.com
-Assistant: Thank you! What would be your preferred date and time for the appointment?
-User: Date: 2025-03-03, Time: 11:02:49
-Assistant: Let me summarize your request:
-- Service: Furnace Maintenance
-- Issue: Routine maintenance check
-- Property: Industrial - Warehouse
-- Contact: +1-630-470-8501x88283, pwilliams@example.com
-- Appointment: 2025-03-03 at 11:02:49
+Assistant: I'll need your contact details. Please provide your phone number and email.
+User: Phone: (760)607-3810, Email: xwiley@example.net
+Assistant: Got it! Now, can you please provide your property address?
+User: My address is: 60076 Nash Curve
+Port Jonathanburgh, AR 54311
+User: I'm available on 2026-02-22 at 07:49:15.
+Assistant: Do you have any additional notes or special requests?
+User: Read art firm call forward.
+Assistant: Great! Here is a summary of your request:
+
+1. **Customer's Full Name:** Samuel Jones
+2. **Contact Information:**
+   - Phone Number: (760)607-3810
+   - Email Address: xwiley@example.net
+3. **Property Details:**
+   - Type of Property: Residential - Apartment
+   - Property Address: 60076 Nash Curve
+Port Jonathanburgh, AR 54311
+4. **Service Required:** Furnace Maintenance
+5. **Issue Description:** Routine maintenance check
+6. **Preferred Appointment:**
+   - Date: 2026-02-22
+   - Time: 07:49:15
+7. **Additional Notes:** Read art firm call forward.
 
 Does this look correct?
-User: Yes, that looks good.
-Assistant: Great! Your appointment has been confirmed. Here is the JSON summary of your booking:
-Assistant: ```json{
-                "Customer's Full Name": customer_name,
-                "Contact Information": {
-                    "Phone Number": phone,
-                    "Email Address": email
-                },
-                "Property Details": {
-                    "Type of Property": property_type,
-                    "Property Address": fake.address()
-                },
-                "Service Required": service_needed,
-                "Issue Description": issue_description,
-                "Preferred Appointment": {
-                    "Date": appointment_date,
-                    "Time": appointment_time
-                },
-                "Additional Notes or Special Requests": ""
-            } ```
-            
+User: Yes, but can we change the time?
 --------------------------------------------------
-Conversation Scenario 11:
-User: Hello, my name is Mary Hanna. I need help with Air Quality Assessment for my Residential - Apartment.
+Conversation Scenario 2:
+User: Hi, I am Edward Hill and need help with HVAC Installation for my Industrial - Warehouse.
 Assistant: Sure! Could you describe the issue you're experiencing?
-User: Installation of a new HVAC system
-Assistant: Got it. I just need some additional details. Can I have your phone number and email address?
-User: Phone: 245-407-0236x776, Email: ipena@example.org
-Assistant: Thank you! What would be your preferred date and time for the appointment?
-User: Date: 2025-03-02, Time: 08:37:22
-Assistant: Let me summarize your request:
-- Service: Air Quality Assessment
-- Issue: Installation of a new HVAC system
-- Property: Residential - Apartment
-- Contact: 245-407-0236x776, ipena@example.org
-- Appointment: 2025-03-02 at 08:37:22
+User: Interested in improving indoor air quality
+Assistant: I'll need your contact details. Please provide your phone number and email.
+User: Phone: 001-770-533-1982x27912, Email: lori58@example.com
+Assistant: Got it! Now, can you please provide your property address?
+User: My address is: 0418 Janice Mall Apt. 415
+Port Brycemouth, KS 28354
+Assistant: What would be your preferred date and time for the appointment?
+User: Date: 2025-08-23, Time: 16:19:27
+Assistant: Do you have any additional notes or special requests?
+User: I dont have additional notes.
+Assistant: Great! Here is a summary of your request:
+
+1. **Customer's Full Name:** Edward Hill
+2. **Contact Information:**
+   - Phone Number: 001-770-533-1982x27912
+   - Email Address: lori58@example.com
+3. **Property Details:**
+   - Type of Property: Industrial - Warehouse
+   - Property Address: 0418 Janice Mall Apt. 415
+Port Brycemouth, KS 28354
+4. **Service Required:** HVAC Installation
+5. **Issue Description:** Interested in improving indoor air quality
+6. **Preferred Appointment:**
+   - Date: 2025-08-23
+   - Time: 16:19:27
+7. **Additional Notes:** I dont have additional notes.
+
+Does this look correct?
+User: Yes, but can we change the time?
+--------------------------------------------------
+Conversation Scenario 3:
+User: Hi, I am Allison Decker and need help with HVAC Installation for my Commercial - Retail Store.
+Assistant: I'll need your contact details. Please provide your phone number and email.
+User: Phone: 305.325.7442x227, Email: christinereed@example.com
+Assistant: Got it! Now, can you please provide your property address?
+User: My address is: 76700 Love Springs Suite 077
+Wesleyland, AK 83371
+Assistant: What would be your preferred date and time for the appointment?
+User: Date: 2025-05-25, Time: 08:33:09
+Assistant: Do you have any additional notes or special requests?
+User: Industry stop available project maintain.
+Assistant: Great! Here is a summary of your request:
+
+1. **Customer's Full Name:** Allison Decker
+2. **Contact Information:**
+   - Phone Number: 305.325.7442x227
+   - Email Address: christinereed@example.com
+3. **Property Details:**
+   - Type of Property: Commercial - Retail Store
+   - Property Address: 76700 Love Springs Suite 077
+Wesleyland, AK 83371
+4. **Service Required:** HVAC Installation
+5. **Issue Description:** Furnace making unusual noises
+6. **Preferred Appointment:**
+   - Date: 2025-05-25
+   - Time: 08:33:09
+7. **Additional Notes:** Industry stop available project maintain.
+
+Does this look correct?
+User: Yes, but can we change the time?
+--------------------------------------------------
+Conversation Scenario 4:
+User: Hi, I am Derek Alvarado and need help with Air Quality Assessment for my Commercial - Retail Store.
+Assistant: Sure! Could you describe the issue you're experiencing?
+User: AC unit not cooling
+Assistant: I'll need your contact details. Please provide your phone number and email.
+User: Phone: 2485881651, Email: hernandezgregory@example.net
+Assistant: Got it! Now, can you please provide your property address?
+User: My address is: 3507 Crystal Summit
+East Jeremyberg, OK 02468
+User: I'm available on 2025-07-26 at 15:24:50.
+Assistant: Do you have any additional notes or special requests?
+User: I dont have additional notes.
+Assistant: Great! Here is a summary of your request:
+
+1. **Customer's Full Name:** Derek Alvarado
+2. **Contact Information:**
+   - Phone Number: 2485881651
+   - Email Address: hernandezgregory@example.net
+3. **Property Details:**
+   - Type of Property: Commercial - Retail Store
+   - Property Address: 3507 Crystal Summit
+East Jeremyberg, OK 02468
+4. **Service Required:** Air Quality Assessment
+5. **Issue Description:** AC unit not cooling
+6. **Preferred Appointment:**
+   - Date: 2025-07-26
+   - Time: 15:24:50
+7. **Additional Notes:** I dont have additional notes.
+
+Does this look correct?
+User: Yes, but can we change the time?
+--------------------------------------------------
+Conversation Scenario 5:
+User: Hi, I am Veronica Evans and need help with HVAC Installation for my Industrial - Warehouse.
+Assistant: I'll need your contact details. Please provide your phone number and email.
+User: Phone: 001-299-973-2788, Email: bakerthomas@example.com
+Assistant: Got it! Now, can you please provide your property address?
+User: My address is: 30551 Taylor Mountain
+North Jenniferfurt, TN 76342
+User: I'm available on 2025-09-21 at 06:11:29.
+Assistant: Do you have any additional notes or special requests?
+User: Cell clear front stand enter.
+Assistant: Great! Here is a summary of your request:
+
+1. **Customer's Full Name:** Veronica Evans
+2. **Contact Information:**
+   - Phone Number: 001-299-973-2788
+   - Email Address: bakerthomas@example.com
+3. **Property Details:**
+   - Type of Property: Industrial - Warehouse
+   - Property Address: 30551 Taylor Mountain
+North Jenniferfurt, TN 76342
+4. **Service Required:** HVAC Installation
+5. **Issue Description:** Ducts need cleaning due to dust buildup
+6. **Preferred Appointment:**
+   - Date: 2025-09-21
+   - Time: 06:11:29
+7. **Additional Notes:** Cell clear front stand enter.
+
+Does this look correct?
+User: Yes, but can we change the time?
+--------------------------------------------------
+Conversation Scenario 6:
+User: Hi, I am Jonathan Johnson and need help with Furnace Maintenance for my Industrial - Warehouse.
+Assistant: I'll need your contact details. Please provide your phone number and email.
+User: Phone: 001-281-772-7895x95464, Email: martinezapril@example.net
+Assistant: Got it! Now, can you please provide your property address?
+User: My address is: 002 Valdez Crest
+Baileyberg, KS 83336
+User: I'm available on 2025-10-16 at 05:56:12.
+Assistant: Do you have any additional notes or special requests?
+User: Usually often produce head financial benefit statement.
+Assistant: Great! Here is a summary of your request:
+
+1. **Customer's Full Name:** Jonathan Johnson
+2. **Contact Information:**
+   - Phone Number: 001-281-772-7895x95464
+   - Email Address: martinezapril@example.net
+3. **Property Details:**
+   - Type of Property: Industrial - Warehouse
+   - Property Address: 002 Valdez Crest
+Baileyberg, KS 83336
+4. **Service Required:** Furnace Maintenance
+5. **Issue Description:** AC unit not cooling
+6. **Preferred Appointment:**
+   - Date: 2025-10-16
+   - Time: 05:56:12
+7. **Additional Notes:** Usually often produce head financial benefit statement.
 
 Does this look correct?
 User: Yes, that looks good.
-Assistant: Great! Your appointment has been confirmed. Here is the JSON summary of your booking:
-Assistant: ```json{
-                "Customer's Full Name": customer_name,
-                "Contact Information": {
-                    "Phone Number": phone,
-                    "Email Address": email
-                },
-                "Property Details": {
-                    "Type of Property": property_type,
-                    "Property Address": fake.address()
-                },
-                "Service Required": service_needed,
-                "Issue Description": issue_description,
-                "Preferred Appointment": {
-                    "Date": appointment_date,
-                    "Time": appointment_time
-                },
-                "Additional Notes or Special Requests": ""
-            } ```
-            
 --------------------------------------------------
-Conversation Scenario 12:
-User: Hello, my name is Michael Carrillo. I need help with Thermostat Installation for my Residential - Apartment.
+Conversation Scenario 7:
+User: Hi, I am Connie Schaefer and need help with HVAC Installation for my Residential - Apartment.
+Assistant: Sure! Could you describe the issue you're experiencing?
+User: Routine maintenance check
+Assistant: I'll need your contact details. Please provide your phone number and email.
+User: Phone: 587-726-5866x22233, Email: cohensandra@example.com
+Assistant: Got it! Now, can you please provide your property address?
+User: My address is: 16360 Allen Point Apt. 282
+Austinton, VT 94504
+Assistant: What would be your preferred date and time for the appointment?
+User: Date: 2026-01-26, Time: 06:15:52
+Assistant: Do you have any additional notes or special requests?
+User: I dont have additional notes.
+Assistant: Great! Here is a summary of your request:
+
+1. **Customer's Full Name:** Connie Schaefer
+2. **Contact Information:**
+   - Phone Number: 587-726-5866x22233
+   - Email Address: cohensandra@example.com
+3. **Property Details:**
+   - Type of Property: Residential - Apartment
+   - Property Address: 16360 Allen Point Apt. 282
+Austinton, VT 94504
+4. **Service Required:** HVAC Installation
+5. **Issue Description:** Routine maintenance check
+6. **Preferred Appointment:**
+   - Date: 2026-01-26
+   - Time: 06:15:52
+7. **Additional Notes:** I dont have additional notes.
+
+Does this look correct?
+User: Yes, that looks good.
+--------------------------------------------------
+Conversation Scenario 8:
+User: Hi, I am Brooke Sutton and need help with Thermostat Installation for my Residential - House.
+Assistant: I'll need your contact details. Please provide your phone number and email.
+User: Phone: (373)366-1002x236, Email: turnerbarbara@example.net
+Assistant: Got it! Now, can you please provide your property address?
+User: My address is: USNS King
+FPO AE 48185
+User: I'm available on 2025-07-28 at 18:30:35.
+Assistant: Do you have any additional notes or special requests?
+User: I dont have additional notes.
+Assistant: Great! Here is a summary of your request:
+
+1. **Customer's Full Name:** Brooke Sutton
+2. **Contact Information:**
+   - Phone Number: (373)366-1002x236
+   - Email Address: turnerbarbara@example.net
+3. **Property Details:**
+   - Type of Property: Residential - House
+   - Property Address: USNS King
+FPO AE 48185
+4. **Service Required:** Thermostat Installation
+5. **Issue Description:** Interested in improving indoor air quality
+6. **Preferred Appointment:**
+   - Date: 2025-07-28
+   - Time: 18:30:35
+7. **Additional Notes:** I dont have additional notes.
+
+Does this look correct?
+User: No, please change the date to tomorrow.
+--------------------------------------------------
+Conversation Scenario 9:
+User: Hi, I am Jeffrey Lawson and need help with AC Repair for my Commercial - Retail Store.
 Assistant: Sure! Could you describe the issue you're experiencing?
 User: Thermostat malfunctioning
-Assistant: Got it. I just need some additional details. Can I have your phone number and email address?
-User: Phone: +1-567-818-3312x6901, Email: abbottamber@example.com
-Assistant: Thank you! What would be your preferred date and time for the appointment?
-User: Date: 2025-03-08, Time: 01:14:48
-Assistant: Let me summarize your request:
-- Service: Thermostat Installation
-- Issue: Thermostat malfunctioning
-- Property: Residential - Apartment
-- Contact: +1-567-818-3312x6901, abbottamber@example.com
-- Appointment: 2025-03-08 at 01:14:48
+Assistant: I'll need your contact details. Please provide your phone number and email.
+User: Phone: (656)943-0836, Email: tbridges@example.com
+Assistant: Got it! Now, can you please provide your property address?
+User: My address is: USNV Gonzalez
+FPO AE 31500
+Assistant: What would be your preferred date and time for the appointment?
+User: Date: 2025-09-03, Time: 16:00:35
+Assistant: Do you have any additional notes or special requests?
+User: Investment late check environmental executive.
+Assistant: Great! Here is a summary of your request:
+
+1. **Customer's Full Name:** Jeffrey Lawson
+2. **Contact Information:**
+   - Phone Number: (656)943-0836
+   - Email Address: tbridges@example.com
+3. **Property Details:**
+   - Type of Property: Commercial - Retail Store
+   - Property Address: USNV Gonzalez
+FPO AE 31500
+4. **Service Required:** AC Repair
+5. **Issue Description:** Thermostat malfunctioning
+6. **Preferred Appointment:**
+   - Date: 2025-09-03
+   - Time: 16:00:35
+7. **Additional Notes:** Investment late check environmental executive.
 
 Does this look correct?
 User: Yes, that looks good.
-Assistant: Great! Your appointment has been confirmed. Here is the JSON summary of your booking:
-Assistant: ```json{
-                "Customer's Full Name": customer_name,
-                "Contact Information": {
-                    "Phone Number": phone,
-                    "Email Address": email
-                },
-                "Property Details": {
-                    "Type of Property": property_type,
-                    "Property Address": fake.address()
-                },
-                "Service Required": service_needed,
-                "Issue Description": issue_description,
-                "Preferred Appointment": {
-                    "Date": appointment_date,
-                    "Time": appointment_time
-                },
-                "Additional Notes or Special Requests": ""
-            } ```
-            
 --------------------------------------------------
-Conversation Scenario 13:
-User: Hello, my name is Justin Shannon. I need help with Duct Cleaning for my Industrial - Warehouse.
+Conversation Scenario 10:
+User: Hi, I am Brooke Myers and need help with AC Repair for my Commercial - Retail Store.
+Assistant: I'll need your contact details. Please provide your phone number and email.
+User: Phone: (202)436-0297x90370, Email: marywood@example.com
+Assistant: Got it! Now, can you please provide your property address?
+User: My address is: 65177 Lisa Field Suite 194
+Hendersonmouth, LA 99027
+Assistant: What would be your preferred date and time for the appointment?
+User: Date: 2025-11-07, Time: 18:18:44
+Assistant: Do you have any additional notes or special requests?
+User: I dont have additional notes.
+Assistant: Great! Here is a summary of your request:
+
+1. **Customer's Full Name:** Brooke Myers
+2. **Contact Information:**
+   - Phone Number: (202)436-0297x90370
+   - Email Address: marywood@example.com
+3. **Property Details:**
+   - Type of Property: Commercial - Retail Store
+   - Property Address: 65177 Lisa Field Suite 194
+Hendersonmouth, LA 99027
+4. **Service Required:** AC Repair
+5. **Issue Description:** AC unit not cooling
+6. **Preferred Appointment:**
+   - Date: 2025-11-07
+   - Time: 18:18:44
+7. **Additional Notes:** I dont have additional notes.
+
+Does this look correct?
+User: Yes, but can we change the time?
+--------------------------------------------------
+Conversation Scenario 11:
+User: Hi, I am Sarah Davis and need help with Duct Cleaning for my Commercial - Retail Store.
 Assistant: Sure! Could you describe the issue you're experiencing?
-User: Furnace making unusual noises
-Assistant: Got it. I just need some additional details. Can I have your phone number and email address?
-User: Phone: 771-743-8714, Email: fmayer@example.org
-Assistant: Thank you! What would be your preferred date and time for the appointment?
-User: Date: 2025-03-04, Time: 15:12:44
-Assistant: Let me summarize your request:
-- Service: Duct Cleaning
-- Issue: Furnace making unusual noises
-- Property: Industrial - Warehouse
-- Contact: 771-743-8714, fmayer@example.org
-- Appointment: 2025-03-04 at 15:12:44
+User: AC unit not cooling
+Assistant: I'll need your contact details. Please provide your phone number and email.
+User: Phone: 7938870496, Email: pstevens@example.net
+Assistant: Got it! Now, can you please provide your property address?
+User: My address is: 63734 Brandon Unions
+West Calebmouth, DE 63061
+Assistant: What would be your preferred date and time for the appointment?
+User: Date: 2025-04-26, Time: 04:23:06
+Assistant: Do you have any additional notes or special requests?
+User: Thus be early course modern general.
+Assistant: Great! Here is a summary of your request:
+
+1. **Customer's Full Name:** Sarah Davis
+2. **Contact Information:**
+   - Phone Number: 7938870496
+   - Email Address: pstevens@example.net
+3. **Property Details:**
+   - Type of Property: Commercial - Retail Store
+   - Property Address: 63734 Brandon Unions
+West Calebmouth, DE 63061
+4. **Service Required:** Duct Cleaning
+5. **Issue Description:** AC unit not cooling
+6. **Preferred Appointment:**
+   - Date: 2025-04-26
+   - Time: 04:23:06
+7. **Additional Notes:** Thus be early course modern general.
 
 Does this look correct?
 User: Yes, that looks good.
-Assistant: Great! Your appointment has been confirmed. Here is the JSON summary of your booking:
-Assistant: ```json{
-                "Customer's Full Name": customer_name,
-                "Contact Information": {
-                    "Phone Number": phone,
-                    "Email Address": email
-                },
-                "Property Details": {
-                    "Type of Property": property_type,
-                    "Property Address": fake.address()
-                },
-                "Service Required": service_needed,
-                "Issue Description": issue_description,
-                "Preferred Appointment": {
-                    "Date": appointment_date,
-                    "Time": appointment_time
-                },
-                "Additional Notes or Special Requests": ""
-            } ```
-            
 --------------------------------------------------
-Conversation Scenario 14:
-User: Hello, my name is Sharon Mclaughlin. I need help with AC Repair for my Commercial - Retail Store.
+Conversation Scenario 12:
+User: Hi, I am Ross Scott and need help with Duct Cleaning for my Commercial - Office.
 Assistant: Sure! Could you describe the issue you're experiencing?
 User: Installation of a new HVAC system
-Assistant: Got it. I just need some additional details. Can I have your phone number and email address?
-User: Phone: (823)330-5993x769, Email: sandra82@example.com
-Assistant: Thank you! What would be your preferred date and time for the appointment?
-User: Date: 2025-03-04, Time: 23:55:00
-Assistant: Let me summarize your request:
-- Service: AC Repair
-- Issue: Installation of a new HVAC system
-- Property: Commercial - Retail Store
-- Contact: (823)330-5993x769, sandra82@example.com
-- Appointment: 2025-03-04 at 23:55:00
+Assistant: I'll need your contact details. Please provide your phone number and email.
+User: Phone: (331)385-2413x1595, Email: brianna93@example.com
+Assistant: Got it! Now, can you please provide your property address?
+User: My address is: 118 Victoria Row Apt. 611
+Stewartside, CA 82548
+Assistant: What would be your preferred date and time for the appointment?
+User: Date: 2026-01-27, Time: 07:49:41
+Assistant: Do you have any additional notes or special requests?
+User: General information surface century culture Republican method.
+Assistant: Great! Here is a summary of your request:
+
+1. **Customer's Full Name:** Ross Scott
+2. **Contact Information:**
+   - Phone Number: (331)385-2413x1595
+   - Email Address: brianna93@example.com
+3. **Property Details:**
+   - Type of Property: Commercial - Office
+   - Property Address: 118 Victoria Row Apt. 611
+Stewartside, CA 82548
+4. **Service Required:** Duct Cleaning
+5. **Issue Description:** Installation of a new HVAC system
+6. **Preferred Appointment:**
+   - Date: 2026-01-27
+   - Time: 07:49:41
+7. **Additional Notes:** General information surface century culture Republican method.
 
 Does this look correct?
-User: Yes, that looks good.
-Assistant: Great! Your appointment has been confirmed. Here is the JSON summary of your booking:
-Assistant: ```json{
-                "Customer's Full Name": customer_name,
-                "Contact Information": {
-                    "Phone Number": phone,
-                    "Email Address": email
-                },
-                "Property Details": {
-                    "Type of Property": property_type,
-                    "Property Address": fake.address()
-                },
-                "Service Required": service_needed,
-                "Issue Description": issue_description,
-                "Preferred Appointment": {
-                    "Date": appointment_date,
-                    "Time": appointment_time
-                },
-                "Additional Notes or Special Requests": ""
-            } ```
-            
+User: No, please change the date to tomorrow.
+--------------------------------------------------
+Conversation Scenario 13:
+User: Hi, I am William Campos and need help with AC Repair for my Residential - House.
+Assistant: I'll need your contact details. Please provide your phone number and email.
+User: Phone: 001-547-455-0585x2811, Email: christine68@example.net
+Assistant: Got it! Now, can you please provide your property address?
+User: My address is: 9055 Lee Cliffs
+New John, ID 73244
+Assistant: What would be your preferred date and time for the appointment?
+User: Date: 2025-08-23, Time: 03:11:51
+Assistant: Do you have any additional notes or special requests?
+User: Forget black third partner method may simply.
+Assistant: Great! Here is a summary of your request:
+
+1. **Customer's Full Name:** William Campos
+2. **Contact Information:**
+   - Phone Number: 001-547-455-0585x2811
+   - Email Address: christine68@example.net
+3. **Property Details:**
+   - Type of Property: Residential - House
+   - Property Address: 9055 Lee Cliffs
+New John, ID 73244
+4. **Service Required:** AC Repair
+5. **Issue Description:** Thermostat malfunctioning
+6. **Preferred Appointment:**
+   - Date: 2025-08-23
+   - Time: 03:11:51
+7. **Additional Notes:** Forget black third partner method may simply.
+
+Does this look correct?
+User: No, please change the date to tomorrow.
+--------------------------------------------------
+Conversation Scenario 14:
+User: Hi, I am Joseph Moore and need help with Thermostat Installation for my Commercial - Office.
+Assistant: Sure! Could you describe the issue you're experiencing?
+User: AC unit not cooling
+Assistant: I'll need your contact details. Please provide your phone number and email.
+User: Phone: 3083490592, Email: kevin94@example.com
+Assistant: Got it! Now, can you please provide your property address?
+User: My address is: 1517 Underwood Grove Apt. 621
+Lake Gene, KY 08587
+Assistant: What would be your preferred date and time for the appointment?
+User: Date: 2025-06-06, Time: 17:51:51
+Assistant: Do you have any additional notes or special requests?
+User: I dont have additional notes.
+Assistant: Great! Here is a summary of your request:
+
+1. **Customer's Full Name:** Joseph Moore
+2. **Contact Information:**
+   - Phone Number: 3083490592
+   - Email Address: kevin94@example.com
+3. **Property Details:**
+   - Type of Property: Commercial - Office
+   - Property Address: 1517 Underwood Grove Apt. 621
+Lake Gene, KY 08587
+4. **Service Required:** Thermostat Installation
+5. **Issue Description:** AC unit not cooling
+6. **Preferred Appointment:**
+   - Date: 2025-06-06
+   - Time: 17:51:51
+7. **Additional Notes:** I dont have additional notes.
+
+Does this look correct?
+User: No, please change the date to tomorrow.
 --------------------------------------------------
 Conversation Scenario 15:
-User: Hello, my name is Maria Myers. I need help with AC Repair for my Commercial - Office.
+User: Hi, I am Shannon Diaz and need help with AC Repair for my Industrial - Warehouse.
 Assistant: Sure! Could you describe the issue you're experiencing?
-User: Furnace making unusual noises
-Assistant: Got it. I just need some additional details. Can I have your phone number and email address?
-User: Phone: (379)373-3542, Email: michaelgonzalez@example.net
-Assistant: Thank you! What would be your preferred date and time for the appointment?
-User: Date: 2025-03-15, Time: 19:13:55
-Assistant: Let me summarize your request:
-- Service: AC Repair
-- Issue: Furnace making unusual noises
-- Property: Commercial - Office
-- Contact: (379)373-3542, michaelgonzalez@example.net
-- Appointment: 2025-03-15 at 19:13:55
+User: AC unit not cooling
+Assistant: I'll need your contact details. Please provide your phone number and email.
+User: Phone: (509)659-7449, Email: omathis@example.org
+Assistant: Got it! Now, can you please provide your property address?
+User: My address is: 7671 Morris Glen Apt. 598
+Anthonyside, MN 11043
+User: I'm available on 2025-04-12 at 20:05:30.
+Assistant: Do you have any additional notes or special requests?
+User: Customer lead not meet help.
+Assistant: Great! Here is a summary of your request:
+
+1. **Customer's Full Name:** Shannon Diaz
+2. **Contact Information:**
+   - Phone Number: (509)659-7449
+   - Email Address: omathis@example.org
+3. **Property Details:**
+   - Type of Property: Industrial - Warehouse
+   - Property Address: 7671 Morris Glen Apt. 598
+Anthonyside, MN 11043
+4. **Service Required:** AC Repair
+5. **Issue Description:** AC unit not cooling
+6. **Preferred Appointment:**
+   - Date: 2025-04-12
+   - Time: 20:05:30
+7. **Additional Notes:** Customer lead not meet help.
 
 Does this look correct?
-User: Yes, that looks good.
-Assistant: Great! Your appointment has been confirmed. Here is the JSON summary of your booking:
-Assistant: ```json{
-                "Customer's Full Name": customer_name,
-                "Contact Information": {
-                    "Phone Number": phone,
-                    "Email Address": email
-                },
-                "Property Details": {
-                    "Type of Property": property_type,
-                    "Property Address": fake.address()
-                },
-                "Service Required": service_needed,
-                "Issue Description": issue_description,
-                "Preferred Appointment": {
-                    "Date": appointment_date,
-                    "Time": appointment_time
-                },
-                "Additional Notes or Special Requests": ""
-            } ```
-            
+User: Yes, but can we change the time?
 --------------------------------------------------
