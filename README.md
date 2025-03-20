@@ -628,6 +628,9 @@ IMPORTANT NOTES:
 
 * Agent book the appointment only after having complete data and user confirmation.
 
+**Running Test Scenario**
+* In [Finaltests.md](./Finaltests.md) file you can find test scenarios with the final prompt.
+
 **Conclusion:**
 
 This document has outlined the process of refining a prompt for an HVAC Service Booking Agent. Through iterative testing and analysis, we have developed a prompt that effectively handles customer service interactions and scheduling tasks.
