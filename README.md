@@ -533,14 +533,7 @@ assistant: What is the new preferred appointment time?
 
 * Agent book appointment using incomplete information and ask for confirmation.
 
-## 5. Visual Representations of the Prompt Refinement Process
-
-**(Include diagrams or flowcharts showing the prompt refinement process. For example, a flowchart showing the steps you took to refine the prompt.)**
-
-* (You can use tools like draw.io or Lucidchart to create diagrams.)
-* (You can also include screenshots of your agent's responses at different stages.)
-
-## 6. Final Prompt
+## 5. Final Prompt
 
 **Final Prompt:** (Include the final version of the prompt after all refinements)
 
@@ -631,7 +624,12 @@ IMPORTANT NOTES:
 **Running Test Scenario**
 * In [Finaltests.md](./Finaltests.md) file you can find test scenarios with the final prompt.
 
-**Conclusion:**
+[//]: # (## 6. Visual Representations of the Prompt Refinement Process)
+
+[//]: # ()
+[//]: # (**&#40;Include diagrams or flowcharts showing the prompt refinement process.&#41;**)
+
+# Conclusion:
 
 This document has outlined the process of refining a prompt for an HVAC Service Booking Agent. Through iterative testing and analysis, we have developed a prompt that effectively handles customer service interactions and scheduling tasks.
 
