@@ -1,4 +1,4 @@
 agent_env
 .env
 tokens
-booked/*
+/booked/**
