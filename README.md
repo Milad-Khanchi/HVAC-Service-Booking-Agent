@@ -624,6 +624,10 @@ IMPORTANT NOTES:
 **Running Test Scenario**
 * In [Finaltests.md](./Finaltests.md) file you can find test scenarios with the final prompt.
 
+**Video Demonstration**
+
+[Watch the video on YouTube](https://youtu.be/GzmwTBfxp3I)
+
 [//]: # (## 6. Visual Representations of the Prompt Refinement Process)
 
 [//]: # ()
