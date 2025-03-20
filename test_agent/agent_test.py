@@ -1,6 +1,7 @@
 import sys
 import os
 import json
+import time
 from dotenv import load_dotenv
 
 # Add the project root directory to sys.path
@@ -14,6 +15,7 @@ def test_conversation(messages):
     chat_history = []
 
     for message in messages:
+        time.sleep(2)
         role = message["role"]
         content = message["content"]
 
@@ -27,7 +29,7 @@ def test_conversation(messages):
 
     return chat_history
 
-def run_tests_from_json(json_file_path="/home/m_khanch/Milad/Code/Agent/data/conversations.json"):
+def run_tests_from_json(json_file_path=os.getenv("CONVERSATION_PATH", "conversations.json")):
     with open(json_file_path, 'r') as file:
         conversations = json.load(file)
 
@@ -35,6 +37,7 @@ def run_tests_from_json(json_file_path="/home/m_khanch/Milad/Code/Agent/data/con
         print(f"--- Running Test Scenario {i + 1} ---")
         test_conversation(conversation)
         print("--- End of Test Scenario --- \n")
+        time.sleep(2)
 
 # Run tests from the JSON file
 run_tests_from_json()

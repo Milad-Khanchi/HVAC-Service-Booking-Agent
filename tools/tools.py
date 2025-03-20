@@ -28,7 +28,7 @@ class JsonTool(BaseTool):
     def _run(self, booking_data_str: str) -> str:
         try:
             booking_data = json.loads(booking_data_str)
-            json_file_path = './booked/hvac_booking.json' #replace with your path
+            json_file_path = os.getenv("BOOKING_PATH", "hvac_booking.json") #replace with your path
             with open(json_file_path, 'w') as json_file:
                 json.dump(booking_data, json_file, indent=4)
             return f"Booking is done."
@@ -135,7 +135,7 @@ class AvailableSlotsTool(BaseTool):
                 """
 
     def _run(self, query: Optional[str] = None) -> str: #added optional query
-        SCOPES = ["https://www.googleapis.com/auth/calendar.readonly"]
+        SCOPES = ["https://www.googleapis.com/auth/calendar"]
         """Shows basic usage of the Google Calendar API.
         Prints the start and name of the next 10 events on the user's calendar.
         """
@@ -195,152 +195,3 @@ class AvailableSlotsTool(BaseTool):
 
     def _arun(self, query: str):
         raise NotImplementedError("This tool does not support async")
-
-
-
-
-# class CalendarTool(BaseTool):
-#     name: str = "Add_to_Calendar"
-#     description: str = """"
-#     "Time data must match format '%Y-%m-%d %H:%M"
-#     Here is how I read json data:
-#
-#             full_name = booking_data["Customer's Full Name"]
-#             phone_number = booking_data["Contact Information"]["Phone Number"]
-#             email_address = booking_data["Contact Information"]["Email Address"]
-#             property_address = booking_data["Property Details"]["Property Address"]
-#             service_required = booking_data["Service Required"]
-#             issue_description = booking_data["Issue Description"]
-#             appointment_date_str = booking_data["Preferred Appointment"]["Date"]
-#             appointment_time_str = booking_data["Preferred Appointment"]["Time"]
-#             additional_notes = booking_data["Additional Notes or Special Requests"]
-#     """
-#
-#     def _run(self, booking_data_str: str) -> str:
-#         try:
-#             booking_data = json.loads(booking_data_str)
-#             creds_file = os.getenv("GOOGLE_APPLICATION_CREDENTIALS")
-#             if not creds_file:
-#                 raise ValueError("GOOGLE_APPLICATION_CREDENTIALS is not set in environment variables.")
-#             creds = service_account.Credentials.from_service_account_file(creds_file)
-#             service = build('calendar', 'v3', credentials=creds)
-#
-#             full_name = booking_data["Customer's Full Name"]
-#             phone_number = booking_data["Contact Information"]["Phone Number"]
-#             email_address = booking_data["Contact Information"]["Email Address"]
-#             property_address = booking_data["Property Details"]["Property Address"]
-#             service_required = booking_data["Service Required"]
-#             issue_description = booking_data["Issue Description"]
-#             appointment_date_str = booking_data["Preferred Appointment"]["Date"]
-#             appointment_time_str = booking_data["Preferred Appointment"]["Time"]
-#             additional_notes = booking_data["Additional Notes or Special Requests"]
-#
-#             appointment_datetime_str = f"{appointment_date_str} {appointment_time_str}"
-#             appointment_datetime = datetime.datetime.strptime(appointment_datetime_str,
-#                                                               "%Y-%m-%d %H:%M")
-#             end_datetime = appointment_datetime + datetime.timedelta(hours=1)
-#
-#             event = {
-#                 'summary': f'HVAC Service for {full_name}',
-#                 'location': property_address,
-#                 'description': f'Service: {service_required}\nIssue: {issue_description}\nContact: {phone_number}, {email_address}\nNotes: {additional_notes}',
-#                 'start': {
-#                     'dateTime': appointment_datetime.isoformat(),
-#                     'timeZone': 'America/New_York',
-#                 },
-#                 'end': {
-#                     'dateTime': end_datetime.isoformat(),
-#                     'timeZone': 'America/New_York',
-#                 },
-#                 'reminders': {
-#                     'useDefault': False,
-#                     'overrides': [
-#                         {'method': 'email', 'minutes': 24 * 60},
-#                         {'method': 'popup', 'minutes': 10},
-#                     ],
-#                 },
-#             }
-#
-#             event = service.events().insert(calendarId='primary', body=event).execute()
-#             return f'Event created: {event.get("htmlLink")}'
-#
-#         except Exception as e:
-#             return f"Error adding to calendar: {e}"
-#
-#     def _arun(self, query: str):
-#         raise NotImplementedError("This tool does not support async")
-
-# class HVACBookingTool(BaseTool):
-#     name: str = "HVAC_Booking"
-#     description: str = "Useful for when you need to collect HVAC booking information from the user."
-#     assistant: HVACAssistant
-#
-#     def _run(self, query: str) -> str:
-#         booking_prompt = """
-#             You are an AI assistant specialized in HVAC services. Your role is to assist customers in scheduling HVAC services by collecting essential information to ensure a seamless booking experience.
-#             DO NOT PROVIDE JSON FORMAT BEFORE USER CONFIRMATION. AFTER CONFIRMATION, PROVIDE JUST JSON FORMAT. YOU MUST ONLY HAVE OUTPUT FORMAT OF TEXT OR JSON. DO NOT ANSWER TO ANY IRRELEVANT QUESTIONS.
-#
-#             1. **Customer's Full Name:**
-#             2. **Contact Information:**
-#                - Phone Number:
-#                - Email Address:
-#             3. **Property Details:**
-#                - Type of Property (e.g., Residential - Apartment, Residential - House, Commercial - Office, Commercial - Retail Store, Industrial - Warehouse):
-#                - Property Address:
-#             4. **Service Required:**
-#                - Specific HVAC Service Needed (e.g., AC Repair, Furnace Maintenance, HVAC Installation, Duct Cleaning, Thermostat Installation, Air Quality Assessment):
-#             5. **Issue Description:**
-#                - Detailed Description of the Problem or Service Request:
-#             6. **Preferred Appointment:**
-#                - Date:
-#                - Time:
-#             7. **Additional Notes or Special Requests:**
-#
-#             Once you have collected all the necessary information, confirm the appointment details with the user as follows:
-#             "Has user confirmed the following details:
-#             - Full Name: [Customer's Full Name]
-#             - Phone Number: [Phone Number]
-#             - Email Address: [Email Address]
-#             - Property Type: [Type of Property]
-#             - Property Address: [Property Address]
-#             - Service Required: [Service Required]
-#             - Issue Description: [Issue Description]
-#             - Preferred Appointment Date: [Date]
-#             - Preferred Appointment Time: [Time]
-#             - Additional Notes: [Additional Notes or Special Requests]
-#             "
-#
-#             If the user confirms, provide the output **ONLY** in JSON format as follows:
-#
-#             ```json
-#             {
-#                 "Customer's Full Name": "",
-#                 "Contact Information": {
-#                     "Phone Number": "",
-#                     "Email Address": ""
-#                 },
-#                 "Property Details": {
-#                     "Type of Property": "",
-#                     "Property Address": ""
-#                 },
-#                 "Service Required": "",
-#                 "Issue Description": "",
-#                 "Preferred Appointment": {
-#                     "Date": "",
-#                     "Time": ""
-#                 },
-#                 "Additional Notes or Special Requests": ""
-#             } ```
-#             """
-#         messages = [
-#             ("system", booking_prompt),
-#             ("human", query),
-#         ]
-#         response = self.assistant.model.invoke(messages)
-#         response_content = response.content.strip()
-#
-#         return response_content
-#
-#     def _arun(self, query: str):
-#         raise NotImplementedError("This tool does not support async")
-
